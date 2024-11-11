@@ -1,0 +1,265 @@
+body {
+    background-color: rgb(252, 240, 223);
+}
+
+.main-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25%;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-left: 200px;
+}
+
+.desserts {
+    margin-bottom: 20px;
+    margin-left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-item {
+    max-width: 200px;
+}
+
+.buttons {
+    margin-left: 27px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    width: 150px;
+    height: 35px;
+}
+
+.buttons:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.buttons:active {
+    background-color: rgb(102, 102, 102);
+}
+
+.item-title {
+    font-size: smaller;
+    color: gray;
+    margin-bottom: -10px;
+}
+
+.item-des {
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.item-price {
+    font-weight: 700;
+    color: orangered;
+}
+
+.menu-img {
+    margin-bottom: -20px;
+    width: 200px;
+}
+
+.cart-img {
+    width: 20px;
+    margin-bottom: -2px;
+    margin-right: 5px;
+    height: 15px;
+}
+
+
+.cart {
+    margin-top: -60px;
+    margin-left: -300px;
+    margin-right: 150px;
+    margin-bottom: 700px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    max-width: 300px;
+    text-wrap: balance;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+
+
+.header {
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    margin-right: 135px;
+}
+
+.fine {
+    margin-top: 80%;
+    color: rgb(112, 105, 105);
+}
+
+.cart-item {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 3px;
+    border-bottom: solid 1px gray;
+}
+
+
+
+.cart-title {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-bottom: -8px;
+}
+
+.cart-price {
+    font-size: small;
+}
+
+.cart-qty {
+    color: red;
+}
+
+.orange {
+    color: rgb(223, 100, 0);
+}
+
+.total-font {
+    font-weight: bold;
+}
+
+.remove {
+    border: none;
+    background-color: white;
+    color: rgb(63, 62, 62);
+    font-weight: bold;
+    float: right;
+}
+
+.remove:active {
+    border-radius: 30%;
+    background-color: rgb(155, 154, 154);
+}
+
+.cart-price-total {
+    text-align: right;
+    font-size: larger;
+    font-weight: bold;
+    float: right;
+}
+
+.cart-price-total1 {
+    font-size: larger;
+    font-weight: bold;
+    float: right;
+    margin-left: 140px;
+}
+
+.checkout {
+    border-radius: 50px;
+    height: 35px;
+    width: 250px;
+    float: right;
+    margin-top: -660px;
+    margin-right: 175px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.checkout:active {
+    background-color: rgb(172, 46, 0);
+}
+
+.cart-total {
+    float: right;
+    margin-top: -690px;
+    margin-right: 190px;
+    font-weight: bold;
+    width: 240px;
+}
+
+.dark-bg {
+    opacity: 50%;
+}
+
+
+#checkout-modal {
+    text-align: center; 
+    border: solid 2px black;
+    width: 600px;
+    height: 350px;
+    padding: 2rem 0rem;
+    background-color: white;
+    margin: 15% auto;
+    position: fixed;
+    left: 50%;
+    top: 17%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    overflow-y: scroll;
+    
+
+}
+
+.checkout-total-words {
+    margin-left: -10px;
+    color: gray;
+    font-size: medium;
+}
+
+
+
+.checkout-total-price {
+    color: black;
+    font-size: x-large;
+}
+
+.checkout-sign {
+    margin-left: 400px;
+    margin-right: 0px;
+    color: black;
+    font-size: x-large;
+}
+
+
+.checkMark {
+    margin-left: -475px;
+}
+
+.orderConfrimed {
+    margin-left: -275px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: bolder;
+}
+
+.enjoy {
+    margin-left: -320px;
+    margin-top: 3px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#close-modal {
+    background-color: orangered;
+    color: white;
+    width: 400px;
+    height: 50px;
+    border-radius: 70px;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.display-none {
+    display: none;
+}
+
